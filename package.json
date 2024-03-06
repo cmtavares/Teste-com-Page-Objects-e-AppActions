@@ -1,0 +1,16 @@
+{
+  "name": "teste-com-page-objects-e-appactions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.6",
+    "faker": "^5.5.3"
+  }
+}
