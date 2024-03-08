@@ -35,3 +35,8 @@ Cypress.Commands.add('checkout', (email, senha) => {
     loginPage.login(email, senha)
     checkoutPage.checkout()
 })
+
+Cypress.Commands.add('login', (email, senha) => {
+    homePage.openMenu('Account')
+    loginPage.login(email, senha)
+})

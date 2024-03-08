@@ -1,0 +1,218 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "start": "2024-03-08T11:38:38.127Z",
+    "end": "2024-03-08T11:39:03.965Z",
+    "duration": 25838
+  },
+  "results": [
+    {
+      "uuid": "434b68db-c5fd-40ac-8649-dd40d078d9e8",
+      "title": "",
+      "fullFile": "cypress\\e2e\\AppActions.cy.js",
+      "file": "cypress\\e2e\\AppActions.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0d1878b4-9958-4c58-84d5-3a45ac307b19",
+          "title": "Checkout de produto",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve fazer o checkout corretamente",
+              "fullTitle": "Checkout de produto Deve fazer o checkout corretamente",
+              "timedOut": null,
+              "duration": 9623,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.checkout(email, senha);",
+              "err": {},
+              "uuid": "3fb8e2da-0d8f-4096-91ec-f335609a1023",
+              "parentUUID": "0d1878b4-9958-4c58-84d5-3a45ac307b19",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3fb8e2da-0d8f-4096-91ec-f335609a1023"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9623,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "dbb3113e-64b0-4d1f-bf74-d09f401c36e6",
+      "title": "",
+      "fullFile": "cypress\\e2e\\intercept.cy.js",
+      "file": "cypress\\e2e\\intercept.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "494de6f5-6cc6-4f40-9cb1-abe79e9d3583",
+          "title": "Validacao de API",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "products should be visible",
+              "fullTitle": "Validacao de API products should be visible",
+              "timedOut": null,
+              "duration": 4573,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.intercept('GET', '**/public/getProducts', {\n  fixture: 'products.json'\n}).as('getProducts');\nhomePage.OpenSearchProduct();\nhomePage.products().should('have.length.greaterThan', 1);",
+              "err": {},
+              "uuid": "2cc3378d-046c-46d3-bcb6-fe0f441d55f1",
+              "parentUUID": "494de6f5-6cc6-4f40-9cb1-abe79e9d3583",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "deve adicionar item ao carrinho",
+              "fullTitle": "Validacao de API deve adicionar item ao carrinho",
+              "timedOut": null,
+              "duration": 2305,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.intercept('PUT', '**public/updateCart/657b05fe31b986f1c0a7a053').as('adicionarAoCarrinho');\nhomePage.OpenSearchProduct();\nadicionarCarrinhoPage.adicionarCarrinho();\ncy.wait('@adicionarAoCarrinho').then(interceptacao => {\n  expect(interceptacao.response.statusCode).to.eq(200);\n  expect(interceptacao.response.body.success).to.be.true;\n});",
+              "err": {},
+              "uuid": "d43d16bd-88fd-4137-885c-1981c49474fc",
+              "parentUUID": "494de6f5-6cc6-4f40-9cb1-abe79e9d3583",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "deve deletar item do carrinho",
+              "fullTitle": "Validacao de API deve deletar item do carrinho",
+              "timedOut": null,
+              "duration": 3167,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.intercept('PUT', '**/public/updateCart/657b05fe31b986f1c0a7a053').as('removerDoCarrinho');\nhomePage.OpenSearchProduct();\nremoverCarrinhoPage.removerCarrinho();\ncy.wait('@removerDoCarrinho').then(interceptacao => {\n  expect(interceptacao.response.statusCode).to.eq(200);\n  expect(interceptacao.response.body.success).to.be.true;\n});",
+              "err": {},
+              "uuid": "ec34e37e-d3fa-4c9a-a62b-b5e08e3897b7",
+              "parentUUID": "494de6f5-6cc6-4f40-9cb1-abe79e9d3583",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "deve atualizar o carrinho",
+              "fullTitle": "Validacao de API deve atualizar o carrinho",
+              "timedOut": null,
+              "duration": 3132,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.intercept('PUT', '**/public/updateCart/657b05fe31b986f1c0a7a053').as('atualizarCarrinho');\nhomePage.OpenSearchProduct();\natualizarCarrinhoPage.atualizarCarrinho();\ncy.wait('@atualizarCarrinho').then(interceptacao => {\n  expect(interceptacao.response.statusCode).to.eq(200);\n  expect(interceptacao.response.body.success).to.be.true;\n});",
+              "err": {},
+              "uuid": "18e523e1-8043-4c93-8a5a-0687aedca5d2",
+              "parentUUID": "494de6f5-6cc6-4f40-9cb1-abe79e9d3583",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2cc3378d-046c-46d3-bcb6-fe0f441d55f1",
+            "d43d16bd-88fd-4137-885c-1981c49474fc",
+            "ec34e37e-d3fa-4c9a-a62b-b5e08e3897b7",
+            "18e523e1-8043-4c93-8a5a-0687aedca5d2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 13177,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[name]-result",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportFilename": "[name]-result",
+        "html": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}
