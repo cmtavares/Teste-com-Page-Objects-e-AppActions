@@ -9,7 +9,8 @@ module.exports = defineConfig({
   },
   reporter: 'mochawesome',
   reporterOptions: {
-    reportFilename: "[name]-result",
-    html: false
+    reportFilename: "index.html",
+    html: true,
+    json: false
   }
 });
