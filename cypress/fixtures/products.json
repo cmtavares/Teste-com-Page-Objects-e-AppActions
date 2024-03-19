@@ -1,0 +1,109 @@
+{
+    "success": true,
+    "products": [
+        {
+            "_id": "657a5d3431b986f1c0a79e64",
+            "categories": [
+                {
+                    "_id": "657a59ef31b986f1c0a79ddb",
+                    "name": "Shoes"
+                }
+            ],
+            "photos": [
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/oxford1-1705671002796.webp",
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/oxford3-1705671002799.webp",
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/oxford2-1705671002798.webp"
+            ],
+            "visible": true,
+            "additionalDetails": [],
+            "name": "Womens Wingtip Shoes Handmade Sheepskin Full Brogues Oxfords & Tie Flats",
+            "price": 104,
+            "quantity": 9999,
+            "description": "<p>This shoes is Narrow Fit.</p><p>Fine Pore Texture, Soft And Comfortable Waxing Sheepskin Upper. Insole And Lining Are All Made Of Top Layer Leather, Soft, Flexible And Comfortable,</p><p>Color: Muti Color1, Muti Color2</p><p>Material: Sheepskin</p><p>Lining: Genuine Leather</p><p>Insole: Genuine Leather（Unmovable）</p><p>Sole: Rubber</p><p>Heels: 2.9Cm/1.14\"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weight: 0.28kg Each Shoes(measured size 9.5)</p>",
+            "popular": false,
+            "location": "Salvador, BA, Brasil",
+            "specialPrice": 89,
+            "createdAt": "2023-12-14T01:41:08.935Z",
+            "updatedAt": "2024-01-19T13:30:09.099Z",
+            "__v": 0
+        },
+        {
+            "_id": "657a5ca631b986f1c0a79e62",
+            "categories": [
+                {
+                    "_id": "657a59ef31b986f1c0a79ddb",
+                    "name": "Shoes"
+                }
+            ],
+            "photos": [
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/sandals1-1705671066615.webp",
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/sandals2-1705671066626.webp"
+            ],
+            "visible": true,
+            "additionalDetails": [],
+            "name": "Handmade Leather Donddi sandals For Women",
+            "price": 83,
+            "quantity": 9999,
+            "description": "<p><span style=\"color: rgb(0, 0, 0);\">The Upper And Insole Are All Made Of Top Layer Leather, Soft, Flexible And Comfortable, Bohemian style, Hand-Cut, Simple But Colorful, Wearing Your Unique Beauty, Soft Rubber Bottom Let You Not Tired After Walking For A Long Time.</span></p>",
+            "popular": true,
+            "location": "Brasília, DF, Brasil",
+            "specialPrice": 78,
+            "createdAt": "2023-12-14T01:38:47.120Z",
+            "updatedAt": "2024-01-19T13:31:08.785Z",
+            "__v": 0
+        },
+        {
+            "_id": "657a5b5331b986f1c0a79e44",
+            "categories": [
+                {
+                    "_id": "657a594d31b986f1c0a79dbd",
+                    "name": "Clothes"
+                }
+            ],
+            "photos": [
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/eos-2-1705671279154.webp",
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/eos-3-1705671303405.webp"
+            ],
+            "visible": true,
+            "additionalDetails": [],
+            "name": "Eos V-Neck Hoodie",
+            "price": 54,
+            "quantity": 9990,
+            "description": "<p>Getting chilly before class starts? Wear the Eos on your way to and from yoga for a cute and cozy warmup piece. Reach for its reliable comfort and enjoy a super-soft blend of fabrics finished in sporty style that includes a hidden kangaroo pocket.</p><p>Semi-fitted.</p><p>Long-Sleeve.</p><p>Machine wash/line dry.</p>",
+            "popular": false,
+            "location": "Rio de Janeiro, RJ, Brasil",
+            "specialPrice": 48,
+            "createdAt": "2023-12-14T01:33:07.949Z",
+            "updatedAt": "2024-01-19T13:35:04.337Z",
+            "__v": 0
+        },
+        {
+            "_id": "657a5a5f31b986f1c0a79e03",
+            "categories": [
+                {
+                    "_id": "657a594d31b986f1c0a79dbd",
+                    "name": "Clothes"
+                }
+            ],
+            "photos": [
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/ingrid2-1705670969514.webp",
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/ingrid1-1705670969512.webp"
+            ],
+            "visible": true,
+            "additionalDetails": [
+                "jacket"
+            ],
+            "name": "Ingrid Running Jacket",
+            "price": 84,
+            "quantity": 99971,
+            "description": "<p><span style=\"color: rgb(102, 102, 102);\">The Ingrid Running Jacket combines sleek design and high performance with slim, contoured fit and moisture-wicking fabric. It features a full-zip construction and a collared neck to keep the elements out and body heat in.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Slim fit.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Moisture-wicking fabric.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Two side pockets.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Zippered pocket at back waist.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Machine wash/dry.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Ivory specked full zip</span></p>",
+            "popular": true,
+            "location": "São Paulo, SP, Brasil",
+            "specialPrice": 75,
+            "createdAt": "2023-12-14T01:29:03.451Z",
+            "updatedAt": "2024-03-07T03:38:02.899Z",
+            "__v": 0
+        }
+    ],
+    "totalProduct": 4
+}
