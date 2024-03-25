@@ -2,7 +2,7 @@ name: EBAC CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ exercicos/modulo-4 ]
     
   workflow_dispatch:
 
